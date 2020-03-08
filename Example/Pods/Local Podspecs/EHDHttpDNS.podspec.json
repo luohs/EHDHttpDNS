@@ -1,0 +1,29 @@
+{
+  "name": "EHDHttpDNS",
+  "version": "0.1.0",
+  "summary": "A short description of EHDHttpDNS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luohuasheng/EHDHttpDNS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luohuasheng": "luohuasheng0225@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/luohuasheng/EHDHttpDNS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EHDHttpDNS/Classes/**/*",
+  "ios": {
+    "dependencies": {
+      "AlicloudHTTPDNS": [
+        "1.5.2"
+      ]
+    }
+  }
+}

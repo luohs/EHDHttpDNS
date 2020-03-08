@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AlicloudHTTPDNS/httpdns" "${PODS_ROOT}/AlicloudUT/ut" "${PODS_ROOT}/AlicloudUTDID/utdid" "${PODS_ROOT}/AlicloudUtils/utils"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AlicloudHTTPDNS" "${PODS_ROOT}/Headers/Public/AlicloudUT" "${PODS_ROOT}/Headers/Public/AlicloudUTDID" "${PODS_ROOT}/Headers/Public/AlicloudUtils" "${PODS_ROOT}/Headers/Public/EHDHttpDNS"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/EHDHttpDNS"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AlicloudHTTPDNS" -isystem "${PODS_ROOT}/Headers/Public/AlicloudUT" -isystem "${PODS_ROOT}/Headers/Public/AlicloudUTDID" -isystem "${PODS_ROOT}/Headers/Public/AlicloudUtils" -isystem "${PODS_ROOT}/Headers/Public/EHDHttpDNS"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"EHDHttpDNS" -l"resolv" -l"sqlite3.0" -l"z" -framework "AlicloudHttpDNS" -framework "AlicloudUtils" -framework "CoreTelephony" -framework "SystemConfiguration" -framework "UTDID" -framework "UTMini"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

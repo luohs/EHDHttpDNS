@@ -1,0 +1,29 @@
+PODS:
+  - AlicloudHTTPDNS (1.5.2):
+    - AlicloudUtils
+  - AlicloudUT (5.2.0.1):
+    - AlicloudUTDID
+  - AlicloudUTDID (1.1.0.16)
+  - AlicloudUtils (1.2.2):
+    - AlicloudUT
+    - AlicloudUTDID
+  - EHDHttpDNS (0.1.0):
+    - AlicloudHTTPDNS (= 1.5.2)
+
+DEPENDENCIES:
+  - EHDHttpDNS (from `../`)
+
+EXTERNAL SOURCES:
+  EHDHttpDNS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlicloudHTTPDNS: 4013c6e12d5ce0713f97b9375752726bcb4ddb27
+  AlicloudUT: 9f20dcfd2753de09261b6c279245da1650a34932
+  AlicloudUTDID: f5a7bc1420c5f83e3bd40296e5ab2e5a804a12f8
+  AlicloudUtils: 2437ae7fd2b39343539e8f48aa1f7bf6f5a6cff1
+  EHDHttpDNS: 604de8b76f74e59e3c9a6965cf2a0cefd1c12920
+
+PODFILE CHECKSUM: 262080dcc347909ee224b991319771b74ce18224
+
+COCOAPODS: 1.2.0

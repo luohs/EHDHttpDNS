@@ -1,0 +1,11 @@
+#use_frameworks!
+source 'https://github.com/aliyun/aliyun-specs.git'
+target 'EHDHttpDNS_Example' do
+  pod 'EHDHttpDNS', :path => '../'
+
+  target 'EHDHttpDNS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
